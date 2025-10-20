@@ -1535,11 +1535,6 @@ body {
   background-color: hsl(var(--foreground));
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(243, 244, 246, var(--tw-bg-opacity, 1));
-}
-
 .bg-muted {
   background-color: hsl(var(--muted));
 }
@@ -1919,11 +1914,6 @@ body {
   color: hsl(var(--accent-foreground));
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgba(59, 130, 246, var(--tw-text-opacity, 1));
-}
-
 .text-card-foreground {
   color: hsl(var(--card-foreground));
 }
@@ -1946,11 +1936,6 @@ body {
 
 .text-foreground\/50 {
   color: hsl(var(--foreground) / .5);
-}
-
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgba(75, 85, 99, var(--tw-text-opacity, 1));
 }
 
 .text-muted-foreground {
@@ -1996,11 +1981,6 @@ body {
 
 .text-white\/90 {
   color: rgba(255, 255, 255, .9);
-}
-
-.underline {
-  -webkit-text-decoration-line: underline;
-  text-decoration-line: underline;
 }
 
 .underline-offset-4 {
@@ -2414,11 +2394,6 @@ body {
 
 .hover\:text-accent-foreground:hover {
   color: hsl(var(--accent-foreground));
-}
-
-.hover\:text-blue-700:hover {
-  --tw-text-opacity: 1;
-  color: rgba(29, 78, 216, var(--tw-text-opacity, 1));
 }
 
 .hover\:text-foreground:hover {
