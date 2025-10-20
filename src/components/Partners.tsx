@@ -1,4 +1,5 @@
 import industriaComercio from "@/assets/industria-comercio.jpeg";
+import Image from "next/image";
 import experian from "@/assets/experian.jpeg";
 import painita from "@/assets/painita.jpeg";
 import nexeco from "@/assets/nexeco.jpeg";
@@ -30,7 +31,7 @@ const Partners = () => {
               className="bg-card border border-border rounded-lg p-8 flex items-center justify-center hover:shadow-lg transition-all duration-300 hover:scale-105 animate-fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <img
+              <Image
                 src={partner.logo}
                 alt={partner.name}
                 className="w-full h-auto object-contain max-h-24"

@@ -1,4 +1,7 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import amerasiaLogo from "@/assets/amerasia-logo.jpg";
 
@@ -14,7 +17,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
-          <img 
+          <Image 
             src={amerasiaLogo} 
             alt="Amerasia Technology Solutions" 
             className="mx-auto mb-8 w-64 md:w-96 animate-scale-in"

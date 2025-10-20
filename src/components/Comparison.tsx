@@ -10,7 +10,7 @@ const Comparison = () => {
             Comparativo de Costos
           </h2>
           <p className="text-xl text-muted-foreground">
-            Contratación Legal vs AMERASIAN
+            12% sobre el valor recaudado
           </p>
         </div>
 
@@ -31,7 +31,7 @@ const Comparison = () => {
 
             <Card className="border-2 border-primary shadow-elevated hover:shadow-xl transition-all bg-gradient-to-br from-primary/5 to-secondary/5">
               <CardHeader className="text-center bg-gradient-to-r from-primary to-secondary">
-                <CardTitle className="text-2xl text-white">Con AMERASIAN</CardTitle>
+                <CardTitle className="text-2xl text-white">Con AMERASIA</CardTitle>
               </CardHeader>
               <CardContent className="pt-8">
                 <div className="text-center">
